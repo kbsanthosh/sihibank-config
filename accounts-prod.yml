@@ -6,7 +6,7 @@ accounts:
   message: "Welcome to SihiBank accounts related Prod APIs "
   contactDetails:
     name: "Prod Mama - Prod Support Lead"
-    email: "prod@sihibank.com"
+    email: "{cipher}dec48ac34b509a73beab32fc18fe368e0eb59193caf12794c853480e99df28caaa614d8329576d00a8e78f6bb06e3a3d"
   onCallSupport:
     - (201) 100-300
     - (201) 100-301
