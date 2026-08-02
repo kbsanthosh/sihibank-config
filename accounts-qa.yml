@@ -6,7 +6,7 @@ accounts:
   message: "Welcome to SihiBank accounts related QA APIs "
   contactDetails:
     name: " Test Mama - QA Lead"
-    email: "qa@sihibank.com"
+    email: "{cipher}05b93e762db352af5b31c39fb1cc72e42a35fbcd55aec1d042e7f0dbbc394683"
   onCallSupport:
     - (201) 100-200
     - (201) 100-201
