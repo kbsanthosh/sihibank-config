@@ -5,8 +5,8 @@ build:
 cards:
   message: "Welcome to SihiBank accounts related local APIs "
   contactDetails:
-    name: "Santhosh Kb - Developer"
-    email: "santhoshkb@sihibank.com"
+    name: "Dev Mama - Developer"
+    email: "dev@sihibank.com"
   onCallSupport:
     - (201) 100-100
     - (201) 100-101

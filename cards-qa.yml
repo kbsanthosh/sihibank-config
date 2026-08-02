@@ -5,8 +5,8 @@ build:
 cards:
   message: "Welcome to SihiBank accounts related QA APIs "
   contactDetails:
-    name: " Deepa Y - QA Lead"
-    email: "deepay@sihibank.com"
+    name: "Test Mama - QA Lead"
+    email: "qa@sihibank.com"
   onCallSupport:
     - (201) 100-200
     - (201) 100-201
