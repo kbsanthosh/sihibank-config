@@ -6,7 +6,7 @@ accounts:
   message: "Welcome to SihiBank accounts related local APIs "
   contactDetails:
     name: "Dev Mama - Developer"
-    email: "dev@sihibank.com"
+    email: "{cipher}98c49adb002afec77e54a3617a816027de79729d6859739a0bfca51c5136bbd77be9c05d141d34e81be429abdba6a598"
   onCallSupport:
     - (201) 100-100
     - (201) 100-101
