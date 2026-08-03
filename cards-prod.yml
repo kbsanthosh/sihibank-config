@@ -3,7 +3,7 @@ build:
   version: "1.0"
 
 cards:
-  message: "Welcome to SihiBank accounts related Prod APIs "
+  message: "Welcome to SihiBank accounts related Prod webhook APIs "
   contactDetails:
     name: "Prod Mama - Prod Support Lead"
     email: "prod@sihibank.com"
