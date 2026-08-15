@@ -2,15 +2,15 @@ server:
   port: 8072
 
 # FIXED: Aligned with the modern WebFlux starter property structure
-spring:
-  cloud:
-    gateway:
-      server:
-        webflux:
-          discovery:
-            locator:
-              enabled: false
-              lower-case-service-id: true
+#spring:
+ # cloud:
+ #   gateway:
+ #     server:
+ #       webflux:
+  #        discovery:
+    #        locator:
+    #          enabled: false
+    #          lower-case-service-id: true
 
 eureka:
   instance:
