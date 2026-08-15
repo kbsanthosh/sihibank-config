@@ -4,7 +4,6 @@ server:
 spring:
   cloud:
     gateway:
-      # FIXED: Added the missing discovery locator configurations to force route generation
       discovery:
         locator:
           enabled: true
@@ -17,6 +16,6 @@ eureka:
     fetchRegistry: true
     registerWithEureka: true
     serviceUrl:
-      # FIXED: Switched from 'localhost' to your actual Docker container bridge network name
-      defaultZone: "http://eurekaserver-rest-api:8070/eureka/" 
+      # FIXED: Looks for the EUREKA_SERVER_URL variable first, fallback to container name second
+      defaultZone: "${EUREKA_SERVER_URL:http://eurekaserver-rest-api:8070/eureka/}"
 
