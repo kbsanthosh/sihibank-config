@@ -1,6 +1,15 @@
 server:
   port: 8072
 
+# FIXED: Added the matching discovery properties to ensure consistency
+spring:
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+          lower-case-service-id: true
+
 eureka:
   instance:
     preferIpAddress: true
